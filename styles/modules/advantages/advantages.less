@@ -1,0 +1,31 @@
+.advantages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 170px;
+  .advantages-container{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 60px;
+    .advantages-item{
+      width: 33%;
+      h2{
+        margin: 0 0 -20px 0;
+      }
+      p{
+        font-weight: 300;
+      }
+    }
+    .quality:before{
+      content: url("../images/settings.svg") ;
+    }
+    .time:before{
+      content: url("../images/clock.svg") ;
+    }
+    .relax:before{
+      content: url("../images/wifi.svg") ;
+    }
+  }
+}
